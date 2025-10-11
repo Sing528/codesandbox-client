@@ -1,0 +1,5 @@
+/* Extra utility classes */
+.ts-section-padding { padding: clamp(24px, 4vw, 64px) 0; }
+.ts-bg-muted { background: var(--wp--preset--color--muted); }
+.ts-text-contrast { color: var(--wp--preset--color--contrast); }
+.ts-max-w-xl { max-width: 72ch; }
