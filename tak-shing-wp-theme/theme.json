@@ -1,0 +1,78 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "appearanceTools": true,
+    "custom": {
+      "brand": {
+        "name": "Tak Shing",
+        "slogan": "Trusted professional cleaning in Hong Kong for 20 years"
+      }
+    },
+    "color": {
+      "palette": [
+        { "slug": "primary", "name": "Primary Blue", "color": "#0d6efd" },
+        { "slug": "secondary", "name": "Sky Blue", "color": "#4da3ff" },
+        { "slug": "accent", "name": "Teal", "color": "#00b5e2" },
+        { "slug": "contrast", "name": "Navy", "color": "#0b2845" },
+        { "slug": "base", "name": "White", "color": "#ffffff" },
+        { "slug": "muted", "name": "Light Gray", "color": "#f5f7fb" }
+      ]
+    },
+    "spacing": {
+      "units": ["px","em","rem","vw","vh"],
+      "spacingScale": {
+        "steps": 8,
+        "mediumStep": 8
+      }
+    },
+    "typography": {
+      "fluid": true,
+      "fontFamilies": [
+        {
+          "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, 'Apple Color Emoji', 'Segoe UI Emoji'",
+          "slug": "system-ui",
+          "name": "System UI"
+        }
+      ],
+      "fontSizes": [
+        { "slug": "xs", "size": "0.875rem", "name": "XS" },
+        { "slug": "sm", "size": "1rem", "name": "SM" },
+        { "slug": "md", "size": "1.125rem", "name": "MD" },
+        { "slug": "lg", "size": "1.5rem", "name": "LG" },
+        { "slug": "xl", "size": "2rem", "name": "XL" },
+        { "slug": "xxl", "size": "2.75rem", "name": "2XL" }
+      ]
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "#ffffff",
+      "text": "#0b2845"
+    },
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--system-ui)",
+      "lineHeight": 1.6
+    },
+    "elements": {
+      "link": {
+        "color": {
+          "text": "var(--wp--preset--color--primary)"
+        }
+      },
+      "button": {
+        "color": {
+          "text": "#ffffff",
+          "background": "var(--wp--preset--color--primary)"
+        },
+        "border": {
+          "radius": "6px"
+        }
+      }
+    }
+  },
+  "templateParts": [
+    { "name": "header", "title": "Header", "area": "header" },
+    { "name": "footer", "title": "Footer", "area": "footer" }
+  ]
+}
